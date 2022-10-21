@@ -1,9 +1,97 @@
-.drop1{
+/* .drop1{
   background: none;
   border: none;
   text-decoration: none;
   outline: none;
+} */
+
+.vl {
+  border-left: 1px solid white;
+  height: 500px;
+  position: absolute;
+  /* left: 50%; */
+  margin-left: -17px;
+  top: 0;
 }
+.vv {
+  border-left: 1px solid white;
+  height: 500px;
+  position: absolute;
+  /* left: 50%; */
+  margin-left: -17px;
+  top: 0;
+}
+.vc {
+  border-left: 1px solid white;
+  height: 500px;
+  position: absolute;
+  /* left: 50%; */
+  margin-left: -1px;
+  top: 0;
+}
+.out{
+  border: 1px solid white;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  height:fit-content;
+  width:fit-content;
+ z-index: 1;
+ padding: 10px 10px 10px;
+ display: none;
+}
+
+
+.call2:hover .out{
+  display: block;
+}
+.out2{
+  border: 1px solid white;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  height:fit-content;
+  width:fit-content;
+ z-index: 1;
+ padding: 10px 10px 10px;
+ display: none;
+}
+
+
+.niger:hover .out2{
+  display: block;
+}
+.out4{
+  border: 1px solid white;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  height:fit-content;
+  width:fit-content;
+ z-index: 1;
+ padding: 10px 10px 10px;
+ display: none;
+}
+
+
+.hello:hover .out4{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .niger :hover{
   cursor: pointer;
 }
@@ -15,13 +103,13 @@
   padding: 10px 20px 10px 60px;
 }
 .whats{
-  margin-right: 30px;
+  margin-right: 60px;
 }
 .niger{
-  margin-right: 30px;
+  margin-right: 60px;
 }
 .call{
-  margin-right: 20px;
+  margin-right: 60px;
 }
 
 .dell{
